@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:orientation="horizontal"
+                android:background="@drawable/smoke">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="20dp"
+                    />
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Reside Menu"
+                    android:textColor="#fff"
+                    android:textSize="16dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rect"
+                    />
+
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This is Reside Menu Example"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20dp"/>
+
+
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Today ,10:31AM"
+                    android:layout_marginLeft="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy the Rside Menu layout "
+                    android:layout_marginLeft="25dp"
+                    android:textSize="16dp"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="20dp"/>
+
+
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For More info email at candraprasetya@kardusinfo.com"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="16dp"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#acacac"
+                android:layout_marginTop="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/round"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+
+                    <customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:textSize="16dp"
+                        android:textColor="#fff"
+                        android:gravity="center"
+
+
+                        />
+                </LinearLayout>
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candra Ramadhan"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25K"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ARTICLES"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+                <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMMNETS"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

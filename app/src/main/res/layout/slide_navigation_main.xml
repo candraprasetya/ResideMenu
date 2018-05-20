@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_top">
+
+
+        <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:background="#000">
+
+
+            <ImageView
+                android:id="@+id/title_bar_left_menu"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left|center_vertical"
+                android:background="@drawable/ic_menu_1"
+                android:layout_marginLeft="5dp"/>
+
+
+            <customfonts.MyTextView1
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="Reside Menu Example"
+                    android:textSize="@dimen/toolbar_text_size"
+                    android:gravity="center"
+                    android:textColor="@color/toolbar_text_color"
+                    android:layout_gravity="center"/>
+
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/main_fragment">
+    </FrameLayout>
+
+</LinearLayout>
